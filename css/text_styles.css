@@ -1,0 +1,106 @@
+:root {
+  font-family: "Source Sans Pro";
+}
+
+h2 {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffffb3;
+}
+
+header h1 {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.33;
+  color: #fff;
+}
+
+header h2 {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffffb3;
+}
+
+.headerNavBarContainer {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0.8;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.headerNavBarContainer a {
+  color: inherit;
+}
+
+.headerNavBarContainer > nav {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-align: left;
+}
+
+.mainSection h2 {
+  color: #464547;
+}
+
+.mainSection h3 {
+  color: #666666;
+}
+
+.mainSection button {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.learnMoreSection h3 {
+  color: #ffffff;
+}
+
+footer {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: left;
+  color: #ffffff66;
+}
+
+footer a {
+  color: inherit;
+}
+
+.footerLogoSection a {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
