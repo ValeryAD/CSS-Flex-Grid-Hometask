@@ -4,32 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/common_styles.css" />
+    <link rel="stylesheet" href="css/text_styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="http://127.0.0.1:5500">Project</a>
-      <nav aria-label="Project navigation">
-        <ul>
-          <li><a href="http://127.0.0.1:5500">Project</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="stories.html">Stories</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <img
-        src="./assets/Logo1.svg"
-        alt="Project logo"
-        height="100"
-        width="100"
-      />
-      <h1>Your Headline<br />Here</h1>
-      <h2>
-        Lorem ipsum, dolor sit amet, consectetur<br />adipisicing elit sed do
-        eiusmod.
-      </h2>
+      <div class="headerNavBarContainer">
+        <div class="projectHomeLinkContainer">
+          <a href="http://127.0.0.1:5500">Project</a>
+        </div>
+        <nav aria-label="Project navigation">
+          <ul>
+            <li><a href="http://127.0.0.1:5500">Project</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="headerMainContentContainer">
+        <img
+          src="./assets/Logo1.svg"
+          alt="Project logo"
+          height="63"
+          width="63"
+        />
+        <h1>Your Headline<br />Here</h1>
+        <h2>
+          Lorem ipsum, dolor sit amet, consectetur<br />adipisicing elit sed do
+          eiusmod.
+        </h2>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="mainSection">
         <h2>This is the Section Headline,<br />Continues to Two Lines</h2>
         <h3>
           Lorem ipsum, dolor sit amet, consectetur<br />adipisicing elit sed do
@@ -56,9 +75,11 @@
         </article>
         <button>Read more</button>
       </section>
-      <section>
+      <section class="learnMoreSection">
         <h2>Learn more<br />about our culture...</h2>
-        <button aria-label="Learn more">&#9654;</button>
+        <button aria-label="Learn more">
+          <img src="assets/Play-Sign_image.png" width="55" height="55" />
+        </button>
         <h3>
           Duis aute irure dolor in<br />reprehenderit involuptate velit esse<br />cillum
           dolore eu fugiat nulla pariatur.
@@ -66,16 +87,25 @@
       </section>
     </main>
     <footer>
-      <img src="assets/Logo1.svg" alt="Project logo" width="20" height="20" />
-      <span>Project</span>
-      <address>
-        <i
-          >123 Street, <br />
-          Anytown, USA 12345</i
-        >
+      <div class="footerLogoSection">
+        <a href="http://127.0.0.1:5500">
+          <img
+            src="assets/Logo1.svg"
+            alt="Project logo"
+            width="20"
+            height="20"
+          />
+          <span>Project</span>
+        </a>
+      </div>
+      <address class="footerAddressSection">
+        123 Street, <br />
+        Anytown, USA 12345
         <a href="hello@website.com">hello@website.com</a>
       </address>
-      <p>&copy 2021 Project. All rights reserved</p>
+      <div class="footerCopyrightSection">
+        <p>&copy 2021 Project. All rights reserved</p>
+      </div>
     </footer>
   </body>
 </html>

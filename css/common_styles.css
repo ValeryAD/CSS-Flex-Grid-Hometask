@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-image: url("./../assets/Header_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerNavBarContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 45px 0;
+}
+
+.projectHomeLinkContainer {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  column-gap: 32px;
+  row-gap: 12px;
+}
+
+.headerMainContentContainer {
+  margin: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.headerMainContentContainer :nth-child(3) {
+  padding: 32px;
+}
+
+.mainSection {
+  min-height: 700px;
+  padding: 88px 40px 20px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.mainSection article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mainSection p {
+  width: 40%;
+  text-align: justify;
+}
+
+.mainSection button {
+  width: 115px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 18px;
+  background-color: #55c2d8;
+}
+
+.learnMoreSection {
+  min-height: 667px;
+  padding: 80px 40px 20px;
+  background-image: url("./../assets/learn_more.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.learnMoreSection button {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border-style: none;
+  background-color: #39c2d7;
+  margin-top: 41px;
+}
+
+.learnMoreSection button > img {
+  padding-left: 15px;
+}
+
+footer {
+  min-height: 170px;
+  background-color: #464547;
+  display: grid;
+  grid-template-columns: 1fr 40% 1fr;
+}
+
+footer > * {
+  padding: 30px;
+}
+
+.footerLogoSection {
+  text-align: right;
+  position: relative;
+}
+
+.footerLogoSection > a {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  gap: 10px;
+}
+
+.footerAddressSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.footerCopyrightSection {
+  position: relative;
+}
+
+.footerCopyrightSection > p {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
