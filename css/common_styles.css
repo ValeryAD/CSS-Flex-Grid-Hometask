@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
 }
 
@@ -43,7 +41,8 @@ header nav ul {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  gap: 32px;
+  column-gap: 32px;
+  row-gap: 12px;
 }
 
 .headerMainContentContainer {
@@ -143,11 +142,11 @@ footer > * {
   row-gap: 30px;
 }
 
-.footerCopyrigthSection {
+.footerCopyrightSection {
   position: relative;
 }
 
-.footerCopyrigthSection > p:only-child {
+.footerCopyrightSection > p {
   position: absolute;
   bottom: 30px;
   left: 30px;

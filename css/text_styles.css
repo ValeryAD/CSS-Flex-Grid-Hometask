@@ -1,4 +1,4 @@
-:root {
+body {
   font-family: "Source Sans Pro";
 }
 
@@ -12,7 +12,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Source Sans Pro";
   font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
@@ -38,12 +37,10 @@ header h2 {
 }
 
 .headerNavBarContainer {
-  font-family: "Source Sans Pro";
   font-weight: 600;
   font-size: 20px;
   line-height: 0.8;
   letter-spacing: 0.1em;
-  text-align: left;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -53,11 +50,8 @@ header h2 {
 }
 
 .headerNavBarContainer > nav {
-  font-family: "Source Sans Pro";
-  font-weight: 400;
   font-size: 14px;
   line-height: 1;
-  text-align: left;
 }
 
 .mainSection h2 {
@@ -71,7 +65,6 @@ header h2 {
 .mainSection button {
   text-transform: uppercase;
   font-family: "Oswald";
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.1em;
@@ -83,11 +76,7 @@ header h2 {
 }
 
 footer {
-  font-family: "Source Sans Pro";
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
-  text-align: left;
   color: #ffffff66;
 }
 
@@ -96,8 +85,6 @@ footer a {
 }
 
 .footerLogoSection a {
-  font-family: "Source Sans Pro";
-  font-weight: 400;
   font-size: 18px;
   line-height: 0.9;
   text-transform: uppercase;
