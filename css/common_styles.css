@@ -45,6 +45,19 @@ header nav ul {
   row-gap: 12px;
 }
 
+.hamburgerMenuButton {
+  background-color: unset;
+  border: unset;
+  height: 14px;
+  width: 22px;
+  background-image: url("./../assets/Hamburger_menu.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: none;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
 .headerMainContentContainer {
   margin: 100px 0 0;
   display: flex;
@@ -70,11 +83,11 @@ header nav ul {
 
 .mainSection article {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .mainSection p {
-  width: 40%;
+  flex: 0 1 40%;
   text-align: justify;
 }
 

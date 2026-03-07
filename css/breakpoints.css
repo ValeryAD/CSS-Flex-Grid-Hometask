@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  .hamburgerMenuButton {
+    display: block;
+  }
+
+  .mainSection {
+    align-items: flex-start;
+  }
+
+  .mainSection h2,
+  .mainSection h3 {
+    text-align: left;
+  }
+
+  .mainSection article {
+    flex-wrap: wrap;
+  }
+
+  .mainSection p {
+    flex: 0 1 100%;
+  }
+
+  footer {
+    grid-template-columns: auto;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .footerLogoSection,
+  .footerCopyrightSection {
+    position: static;
+  }
+
+  .footerLogoSection :first-child,
+  .footerCopyrightSection :first-child {
+    position: static;
+  }
+}
