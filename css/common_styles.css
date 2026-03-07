@@ -46,10 +46,16 @@ header nav ul {
 }
 
 .hamburgerMenuButton {
-  all: unset;
+  background-color: unset;
+  border: unset;
+  height: 14px;
+  width: 22px;
+  background-image: url("./../assets/Hamburger_menu.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
   display: none;
   margin-left: auto;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .headerMainContentContainer {
